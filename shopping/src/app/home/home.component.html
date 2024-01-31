@@ -1,0 +1,18 @@
+  <div>
+    <ul >
+        <li *ngFor="let dress of dressImages">
+          <a > <img src={{dress.imageName}} alt="dresses"> 
+            <div class="dressDetails">
+             <p>{{dress.name}}</p>
+             <span class="favorite">
+                <mat-icon style="color: gray;" *ngIf="dress.favorite==false">favorite</mat-icon>
+                <mat-icon style="color: rgb(255, 0, 0);" *ngIf="dress.favorite==true">favorite</mat-icon>
+            </span>
+            <h1>{{dress.prize | currency:'INR'}}</h1>
+          </div></a> 
+          
+        </li>
+    </ul>
+   </div>
+  
+ 

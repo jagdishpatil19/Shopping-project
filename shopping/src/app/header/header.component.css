@@ -1,0 +1,17 @@
+.dropDown{
+    position: relative;
+    left: 1020px;
+    top: 60px;
+    display: none;
+
+ }
+
+ .menuIcon :hover div.dropDown{
+ display: block;
+ }
+ .shoppingIcon{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    scale:1.5;
+ }

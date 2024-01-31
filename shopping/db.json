@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "swtter",
+      "prize": 300,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 2,
+      "imageName": "assets/image 1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Lezer",
+      "prize": 800,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 3,
+      "imageName": "assets/image 2.jpg",
+      "id": 2
+    },
+    {
+      "name": "Mens-Swetter",
+      "prize": 300,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 3,
+      "imageName": "assets/image 3.jpg",
+      "id": 3
+    },
+    {
+      "name": "T-Shart",
+      "prize": 250,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 2,
+      "imageName": "assets/image 4.jpg",
+      "id": 4
+    },
+    {
+      "name": "Lezer",
+      "prize": 750,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 3,
+      "imageName": "assets/image 5.jpg",
+      "id": 5
+    },
+    {
+      "name": "Shart and shoose",
+      "prize": 900,
+      "favorite": true,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 4,
+      "imageName": "assets/image 6.jpg",
+      "id": 6
+    },
+    {
+      "name": "Shart and Pant",
+      "prize": 500,
+      "favorite": true,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 4,
+      "imageName": "assets/image 7.jpg",
+      "id": 7
+    },
+    {
+      "name": "Jins-Pant",
+      "prize": 900,
+      "favorite": false,
+      "origin": [
+        "ind",
+        "aus"
+      ],
+      "star": 3,
+      "imageName": "assets/image 8.jpg",
+      "id": 8
+    }
+  ]
+}
